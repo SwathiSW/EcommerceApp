@@ -15,6 +15,7 @@ import com.bumptech.glide.Glide;
 
 import java.util.List;
 
+
 public class hsa extends RecyclerView.Adapter<hsa.MyHolder>{
 
     final Context context;
@@ -39,6 +40,7 @@ public class hsa extends RecyclerView.Adapter<hsa.MyHolder>{
         holder.desc.setText(hl.get(position).getDescription());
         holder.price.setText("$"+hl.get(position).getPrice());
         Glide.with(context).load(hl.get(position).getImage()).into(holder.img);
+
 
         holder.title.setOnClickListener(new View.OnClickListener() {
             @Override

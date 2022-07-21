@@ -2,9 +2,8 @@ package com.example.ecommerceapp;
 
 import com.google.gson.JsonObject;
 
+
 import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Products implements Serializable {
 

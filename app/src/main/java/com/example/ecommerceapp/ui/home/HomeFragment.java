@@ -19,9 +19,11 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+
 import com.example.ecommerceapp.MainActivity;
 import com.example.ecommerceapp.MainActivity2;
 import com.example.ecommerceapp.MainActivity3;
+
 import com.example.ecommerceapp.ProductInterface;
 import com.example.ecommerceapp.Products;
 import com.example.ecommerceapp.R;
@@ -156,6 +158,7 @@ public class HomeFragment extends Fragment {
                         }
 
                     }
+
                     sv.setVisibility(View.VISIBLE);
                 }
                 hsa = new hsa(getContext(), hl);

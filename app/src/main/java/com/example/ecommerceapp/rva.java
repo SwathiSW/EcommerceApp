@@ -68,7 +68,6 @@ public class rva extends RecyclerView.Adapter<rva.MyHolder>{
                     context.startActivity(new Intent(context, MainActivity4.class).putExtra("free_shipping", "false"));
             }
         });
-
     }
 
 
