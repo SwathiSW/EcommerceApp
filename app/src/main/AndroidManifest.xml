@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ecommerceapp">
+    package="com.ecom.ecommerceapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,23 +12,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EcommerceApp">
         <activity
-            android:name=".MainActivity4"
+            android:name="com.ecom.ecommerceapp.Classes.SearchActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity3"
+            android:name="com.ecom.ecommerceapp.Classes.CartActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity2"
-            android:exported="false"
-            android:label="@string/title_activity_main2" />
-        <activity
-            android:name=".ApiServices"
+            android:name="com.ecom.ecommerceapp.Classes.DetailsActivity"
             android:exported="false" />
         <activity
-            android:name=".HomeActivity"
+            android:name="com.ecom.ecommerceapp.Classes.ProductActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.ecom.ecommerceapp.ApiServices.ApiServices"
+            android:exported="false" />
+        <activity
+            android:name="com.ecom.ecommerceapp.Classes.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ecom.ecommerceapp.Classes.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
